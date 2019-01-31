@@ -15,12 +15,24 @@
         "level": "alpha",
         "patch": 0
       }
-    }
+    },
+    "timestamp": "2019-01-31T16:23:04+11:00"
   },
   "software": {
     "base": {
+      "name": "gitlabs",
+      "framework": "rails5",
       "deployment_type": "web",
-      "http_protocol": "https_and_http"
-    }
+      "http_protocol": "https_and_http",
+      "memory": {
+        "required": 384,
+        "recommended": 384
+      }
+    },
+    "system_packages": [
+      {
+        "package": "gitlab"
+      }
+    ]
   }
 }
